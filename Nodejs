@@ -1,0 +1,25 @@
+UNDERSTANDING THE BASICS
+
+What is Node.js?
+Node.js is a server-side JavaScript run-time environment. It's open-source, including Google's V8 engine, libuv for cross-platform compatibility, and a core library. Notably, Node.js does not expose a global "window" object, since it does not run within a browser.
+
+What is Node.js used for?
+Node.js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+
+What is a web framework?
+Web frameworks like Angular and React are libraries that help organize and generate the front-end code that runs in a web browser. They reduce development time, reusing code for common operations. Some web frameworks are "full stack," meaning they also generate the back-end code that runs on a web server.
+
+Is Node.js a framework?
+No, it's an environment, and back-end frameworks run within it. Popular ones include Express.js (or simply Express) for HTTP servers and Socket.IO for WebSocket servers.
+
+Is Node.js a programming language?
+No, the ".js" means that the programming language you use with Node.js is JavaScript (or anything that can transpile to it, like TypeScript, Haxe, or CoffeeScript.)
+
+Why is Node.js popular?
+Aside from being effective at what it does, Node.js is popular because it has a huge, active, open-source, JavaScript-based ecosystem. Also, it doesn't tend to break compatibility between versions in major ways.
+
+What is the difference between Node.js and Angular/AngularJS?
+Node.js executes JavaScript code in its environment on the server, whereas Angular is a JavaScript framework that gets executed on the client (i.e. within a web browser.)
+
+Why is Node.js bad?
+Node.js, being single-threaded, may be a bad choice for web servers doubling as computational servers, since heavy computation will block the server's responsiveness. However, Node.js itself isn't bad: The technology is quite mature and widely used for many different types of servers.
